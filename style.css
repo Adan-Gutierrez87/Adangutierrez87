@@ -1,0 +1,44 @@
+
+img {
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+    height: 500px;
+    ;
+}
+
+.links {
+    background-color: crimson;
+    float: left;
+    width: 25%;
+}
+
+    .links:hover {
+        background-color: gray;
+    }
+
+.column {
+    background-color: crimson;
+    float: left;
+    width: 25%;
+}
+
+    .column:hover {
+        background-color: white;
+    }
+
+.container {
+    background-color: white;
+    float: left;
+    width: 25%;
+}
+
+    .container:hover {
+        background-color: crimson;
+    }
+
+.tabs::after {
+    content: "";
+    clear: both;
+    display: table;
+}
